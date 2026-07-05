@@ -1,0 +1,36 @@
+# Environment Variables
+.env
+.env.local
+
+# Exports folder
+exports/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+URL.env
+*.env
+
+test_supabase.py
+test_supabase_simple.py
+test_*.py

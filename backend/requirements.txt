@@ -1,0 +1,44 @@
+# ─── CyGILUS Backend — Python Dependencies ───────────────────────────────────
+# Install with:  pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Async HTTP client (subdomain probing + crt.sh API)
+httpx[http2]==0.27.2
+
+# DNS resolution
+dnspython==2.6.1
+
+# WHOIS lookups
+python-whois==0.9.5
+
+# HTML parsing for contact scraper
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# User-Agent rotation (avoid bot detection)
+fake-useragent==1.5.1
+
+# Phone number parsing & validation (Google's libphonenumber)
+phonenumbers==8.13.46
+
+# PDF report generation
+reportlab==4.2.5
+
+# SSL certificate inspection (stdlib ssl + pyOpenSSL for extra detail)
+pyOpenSSL==24.2.1
+
+# Data validation (FastAPI Pydantic models)
+pydantic==2.9.2
+
+# Tool 4 — Phishing Site Detector
+xgboost==2.0.3
+shap==0.45.1
+rapidfuzz==3.9.3
+ipwhois==1.2.0
+python-dotenv==1.0.1
+numpy
+pandas
+scikit-learn
