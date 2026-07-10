@@ -12,7 +12,7 @@ reconnaissance and threat detection.
 | Domain & Subdomain Scanner | Completed |
 | Email & Contact Scraper | Completed |
 | Vulnerability Scanner | In Development |
-| Phishing Site Detector | In Development |
+| Phishing Site Detector | Completed |
 
 ## Tech Stack
 Python, Requests, BeautifulSoup, Nmap
